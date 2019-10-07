@@ -1,6 +1,6 @@
 Mac
 
-```
+```powershell
 {
     "cmd": ["clang++", "${file}","-std=c++11", "-stdlib=libc++", "-o", "${file_path}/${file_base_name}"],
     "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
@@ -17,3 +17,43 @@ Mac
 ```
 
 Win10
+
+```
+
+{
+    "cmd": ["g++", "${file}", "-fexec-charset=gbk", "-o", "${file_path}/${file_base_name}"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "selector": "source.c, source.c++",
+    "variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["cmd", "/c", "g++", "${file}", "-o", "${file_path}/${file_base_name}", "&&", "start", "cmd", "/c", "${file_path}/${file_base_name} & pause"]
+        }
+    ]
+}
+
+```
+
+Linux
+
+``` powershell
+{
+    "cmd" : ["g++", "$file_name", "-o", "${file_base_name}", "-lm", "-Wall"],
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "selector" : "source.c, source.c++",
+    "shell":false,
+    "working_dir" : "$file_path",
+ 
+    "variants":
+    [
+        {
+            "name": "Run",
+            "cmd": ["gnome-terminal", "-e", "bash -c \"g++ '${file}' -o '${file_path}/${file_base_name}' -lm -Wall && '${file_path}/${file_base_name}' ; read -p '\nPress any key to continue...'\""]
+        }
+    ]
+}
+
+```
+
