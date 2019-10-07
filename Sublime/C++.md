@@ -1,3 +1,6 @@
+Mac
+
+```
 {
     "cmd": ["clang++", "${file}","-std=c++11", "-stdlib=libc++", "-o", "${file_path}/${file_base_name}"],
     "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
@@ -11,3 +14,5 @@
             "cmd": ["bash", "-c", "clang++  '${file}' -std=c++11 -stdlib=libc++ -o '${file_path}/${file_base_name}' && '${file_path}/${file_base_name}'"]
         }
 ]}
+```
+
