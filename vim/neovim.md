@@ -4,3 +4,7 @@ Mac
 
 https://harttle.land/2015/07/18/vim-cpp.html
 
+[nvim 与vim 区别](https://www.jianshu.com/p/f2a208de7f59)
+
+
+
