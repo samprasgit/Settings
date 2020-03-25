@@ -1,4 +1,4 @@
-Mac 
+[TOC]
 
 参考
 
@@ -12,7 +12,7 @@ https://harttle.land/2015/07/18/vim-cpp.html
 
 
 
-Vundle安装
+## Vundle安装
 
 ```shell
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vundle.vim
@@ -34,19 +34,19 @@ nvim +PluginInstall +qall
 
 ```
 
-[Vim-Plug](https://github.com/junegunn/vim-plug)
+## [Vim-Plug](https://github.com/junegunn/vim-plug)
 
 ```shell
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-补全框架
+### 补全框架
 
 - [nvim-completion-manager](https://github.com/roxma/nvim-completion-manager)
 - 
 
-基本配置：
+## 基本配置：
 
 ```shell
 call plug#begin('~/.local/share/nvim/plugged')
@@ -130,5 +130,12 @@ set cursorline
 set list listchars=extends:❯,precedes:❮,tab:▸\ ,trail:
 
 
+```
+
+## 文件配置目录
+
+```
+ln -s ~/.vim ~/.config/nvim
+ln -s ~/.vimrc ~/.config/nvim/init.vim
 ```
 
