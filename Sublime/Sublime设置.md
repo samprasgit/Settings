@@ -1,4 +1,17 @@
-# Sublime
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Sublime](#sublime)
+- [包管理](#%E5%8C%85%E7%AE%A1%E7%90%86)
+- [资源图标](#%E8%B5%84%E6%BA%90%E5%9B%BE%E6%A0%87)
+- [常用插件](#%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6)
+- [快捷键](#%E5%BF%AB%E6%8D%B7%E9%94%AE)
+- [参考](#%E5%8F%82%E8%80%83)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+### Sublime
 
 
 
@@ -8,7 +21,7 @@ Sublime Text具有漂亮的用户界面和强大的功能，并且是一个跨�
 
 登录官网下载 https://www.sublimetext.com/
 
-## 包管理
+### 包管理
 
 
 
@@ -21,7 +34,7 @@ sublime 可以通过扩展包来丰富编码功能，扩展插件网站：https:
 3. 在面板中输入“install package”后回车
 4. 接着输入插件名称如：“emmet” 回车即可（观察状态栏进度，晃动的等号
 
-## 资源图标
+### 资源图标
 
 
 
@@ -31,11 +44,11 @@ sublime 可以通过扩展包来丰富编码功能，扩展插件网站：https:
 2. Choose `Package Control: Install Package`
 3. Find `A File Icon` and hit `Enter`
 
-##  常用插件
+###  常用插件
 
 
 
-## 快捷键
+### 快捷键
 
 使用快捷键可以显著提高开发效率，所以还是有必要掌握的。
 
@@ -62,7 +75,9 @@ sublime 可以通过扩展包来丰富编码功能，扩展插件网站：https:
 
 
 
-参考：
+### 参考
 
 [高效使用sublime text，让编码速度飞起来，php/js/css程序员看过来](http://houdunren.gitee.io/note/soft/sublime.html)
+
+[SublimeText + Python + Latex配置](https://www.lizenghai.com/archives/63516.html)
 
