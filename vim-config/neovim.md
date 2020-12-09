@@ -27,10 +27,10 @@ call vundle#end()
 filetype plugin indent on
 
 # 安装脚本
-:PluginInstall
+:PlugInstall
 
 # cmd
-nvim +PluginInstall +qall
+nvim +PlugInstall +qall
 
 ```
 
