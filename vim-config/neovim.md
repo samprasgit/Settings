@@ -139,3 +139,15 @@ ln -s ~/.vim ~/.config/nvim
 ln -s ~/.vimrc ~/.config/nvim/init.vim
 ```
 
+## Errors解决
+
+1.解决vi打开文件时：Error detected while processing /root/.vimrc:
+
+```shell
+nvim ~/.zshrc
+```
+
+```shell
+export EDITOR=/usr/bin/vim
+```
+
